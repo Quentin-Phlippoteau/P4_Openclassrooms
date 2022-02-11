@@ -510,6 +510,17 @@ button {
 
 /* START modification Quentin Phlippoteau */
 
+.citation {
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.auteur {
+    font-size: 12px;
+    font-weight: 700;
+}
+
 #bloc-5-cta h2 {
     position: relative;
 }
@@ -528,7 +539,7 @@ button {
     margin-right: 10px;
     display: flex;
     justify-content: center;
-    color: #F3976C;
+    color: #303030;
 }
 
 .social:hover + .title-rs {
@@ -785,7 +796,7 @@ h1 {
 }
 
 .black-background {
-    background-color: #30303090;
+    background-color: #30303040;
     padding: 40px 40px 40px 40px;
 }
 
@@ -804,6 +815,10 @@ h1 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+}
+
+.bgc-atomic-black {
+    background-color: #303030;
 }
 
 .tc-white {
